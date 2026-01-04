@@ -1,38 +1,58 @@
-# Hi, I'm Hetul 👋
+## Hi, I'm Hetul 👋
 
-🎓 **MSCS Student @ Auburn University at Montgomery (Expected 2027)**  
-💻 **Quantitative Researcher in training** with 2.5 years of experience building scalable data systems  
-📊 Passionate about **algorithmic trading, time-series analysis, and financial NLP**  
+I'm a systems engineer focused on building **AI infrastructure**, **vector retrieval systems**, and **quantitative research platforms**.
 
----
-
-## 🚀 Featured Projects  
-
-🔹 [**AUM Trading Simulator / Backtester**](https://github.com/Hetul803/tradesim)  
-Backtesting engine for SMA/EMA crossover and mean-reversion strategies.  
-- Generates PnL, Sharpe ratio, drawdown, hit rate, and equity curve plots  
-- Models transaction costs (slippage/fees)  
-- **Next steps:** Extend to full S&P 500 and crypto datasets with walk-forward validation  
-
-🔹 [**Finance Research Assistant (Chatbot)**](https://github.com/Hetul803/finance-research-assistant)  
-Finance-focused Q&A assistant using RAG (Phi-3 + FAISS/Chroma).  
-- Deterministic vs exploratory answering modes with evaluation metrics  
-- Improved retrieval consistency on financial datasets  
-- **Next steps:** Ingest SEC filings and financial reports; benchmark retrieval accuracy  
+My work centers on designing performance-critical backend systems, large-scale experimentation pipelines, and infrastructure for intelligent decision-making under uncertainty.
 
 ---
 
-## 🛠️ Tech Stack  
-**Languages:** Python (advanced), C++ (intermediate), SQL  
-**Quant/ML:** Pandas, NumPy, StatsModels, scikit-learn, Probability Modeling  
-**Data Engineering:** Spark, ETL, Time-Series Processing  
-**Cloud/DevOps:** AWS (EC2, S3, RDS, Lambda), Docker, GitHub Actions  
-**Visualization:** Plotly, Tableau, matplotlib  
+## 🔧 What I'm working on
+
+### **Veclite — Hierarchical Vector Routing & Retrieval Engine**
+A production-ready vector database that improves efficiency without sacrificing accuracy.
+
+- Achieves **12.71× compression** with **exact recall parity** vs FAISS (Recall@10 = 0.921)
+- Two-stage retrieval: **cluster-based routing + exact reranking**
+- Sub-40ms latency at 100K+ vector scale under concurrent query load
+- Built with FastAPI, Redis, PostgreSQL, and a multi-tenant SaaS backend
+
+➡️ Live demo: www.veclite.com  
 
 ---
 
-## 📫 Connect With Me  
-- [LinkedIn](https://www.linkedin.com/in/hetul-patel-quant)  
-- [GitHub](https://github.com/Hetul803)  
-- 📧 hetul.patel.career@outlook.com  
+### **GSIN — Global Strategy Intelligence Network**
+A self-evolving algorithmic trading research platform for systematic strategy discovery.
 
+- Continuously backtests and mutates **300–1,000+ strategies** per cycle
+- Genetic-algorithm-driven evolution with regime-aware mutation
+- Research-grade evaluation using walk-forward analysis and Monte Carlo simulations
+- Internal paper-trading system for candidate strategy validation
+
+➡️ Live demo: https://<your-gsin-vercel-link>  
+
+---
+
+## 🧠 Technical interests
+
+- AI infrastructure & ML systems
+- Vector search, retrieval, and similarity indexing
+- Distributed backend systems
+- Quantitative research & experimentation
+- Performance benchmarking and system trade-offs
+
+---
+
+## 🛠️ Tech stack
+
+- **Languages:** Python, C++, SQL  
+- **Systems:** FastAPI, REST APIs, Redis, PostgreSQL, Supabase  
+- **ML & NLP:** Vector search, retrieval systems, NLP, Hugging Face, text classification  
+- **Cloud:** AWS, Docker, CI/CD, Railway  
+
+---
+
+## 📫 Connect
+
+- LinkedIn: www.linkedin.com/in/hetulkumar-patel
+- GitHub: https://github.com/Hetul803
+- Email: hetul.patel.career@outlook.com
