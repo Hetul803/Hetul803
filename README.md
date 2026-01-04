@@ -28,7 +28,7 @@ A self-evolving algorithmic trading research platform for systematic strategy di
 - Research-grade evaluation using walk-forward analysis and Monte Carlo simulations
 - Internal paper-trading system for candidate strategy validation
 
-➡️ Live demo: https://<your-gsin-vercel-link>  
+➡️ Live demo: www.gsin.trade 
 
 ---
 
