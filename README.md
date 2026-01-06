@@ -56,3 +56,4 @@ A self-evolving algorithmic trading research platform for systematic strategy di
 - LinkedIn: www.linkedin.com/in/hetulkumar-patel
 - GitHub: https://github.com/Hetul803
 - Email: hetul.patel.career@outlook.com
+- Portfolio: hetul-patel-portfolio.vercel.app
